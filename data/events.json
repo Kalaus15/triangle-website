@@ -1,0 +1,26 @@
+[
+    {
+      "title": "Spring Recruitment Week",
+      "date": "March 10-15, 2025",
+      "time": "Varies",
+      "location": "Triangle House",
+      "description": "Join us for a week of fun events and learn about Triangle!",
+      "link": "/events"
+    },
+    {
+      "title": "Alumni Networking Night",
+      "date": "April 20, 2025",
+      "time": "6:00 PM - 9:00 PM",
+      "location": "Student Union",
+      "description": "Connect with our alumni and expand your network.",
+      "link": "/events"
+    },
+    {
+      "title": "Brotherhood Retreat",
+      "date": "May 4-5, 2025",
+      "time": "All day",
+      "location": "Camp Randall Lodge",
+      "description": "A weekend retreat to strengthen our bonds and plan for the future.",
+      "link": "/events"
+    }
+  ]

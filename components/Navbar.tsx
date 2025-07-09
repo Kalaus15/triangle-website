@@ -33,7 +33,7 @@ export default function Navbar() {
       } bg-[#7f0000] text-white shadow-md`}
     >
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-        <h1 className="text-xl font-bold">Our Organization</h1>
+        <h1 className="text-xl font-bold">Triangle Fraternity</h1>
         <div className="space-x-4">
           <Link href="/" className="transition-opacity duration-300 hover:opacity-60">
             Home

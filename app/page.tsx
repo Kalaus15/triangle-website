@@ -29,7 +29,7 @@ export default function HomePage() {
   return (
     <main className="overflow-x-hidden">
       {/* Hero Section with Carousel */}
-      <section className="relative h-[500px] overflow-hidden">
+      <section className="relative h-[500px] mt-5 overflow-hidden">
         {/* Image Carousel */}
         <div ref={sliderRef} className="keen-slider w-full h-full">
           {images.map((img, idx) => (

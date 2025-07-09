@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "My Organization",
-  description: "Official website of My Organization",
+  title: "Triangle Fraternity",
+  description: "Official website of Triangle Fraternity",
 };
 
 export default function RootLayout({
@@ -29,7 +29,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Navbar /> {/* Navbar added here */}
-        <main className="container mx-auto py-20">{children}</main>
+        <main className="container mx-auto py-10">{children}</main>
       </body>
     </html>
   );

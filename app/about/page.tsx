@@ -12,16 +12,22 @@ export default function AboutPage() {
   return (
     <>
       {/* Full-width image */}
-      <div className="w-full h-[400px] sm:h-[500px] md:h-[700px] overflow-hidden relative -mt-4 left-1/2 -ml-[50vw] w-screen">
+      <div className="w-full h-[400px] sm:h-[500px] md:h-[700px] overflow-hidden mt-5 relative left-1/2 -ml-[50vw] w-screen">
         <motion.img
-          src="/images/house.jpg"
-          alt="Chapter House"
+          src="/images/members.jpg"
+          alt="Chapter Members"
           className="w-full h-full object-cover"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8 }}
         />
       </div>
+      <div className="absolute inset-0 bg-black bg-opacity-25 flex items-center justify-center text-center">
+          <div className="text-white z-10 bg-center bg-[#7f0000]/40 rounded-xl p-3 mt-40">
+            <h1 className="text-9xl font-bold drop-shadow-md">About Triangle</h1>
+          </div>
+        </div>
+      
 
       <main className="max-w-8xl mx-auto py-10 px-6 space-y-16">
 

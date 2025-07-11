@@ -1,7 +1,7 @@
-"use client"
+"use client";
 import events from "@/data/events.json";
 import { useState } from "react";
-import * as motion from "motion/react-client"
+import * as motion from "motion/react-client";
 
 const fadeInUp = {
   initial: { opacity: 0, y: 40 },

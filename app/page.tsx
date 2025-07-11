@@ -1,11 +1,11 @@
-"use client"
-import Link from "next/link"
-import events from "@/data/events.json"
+"use client";
+import Link from "next/link";
+import events from "@/data/events.json";
 import officers from "@/data/officers.json" assert { type: "json" };
 import { useKeenSlider } from "keen-slider/react"
-import { useEffect } from "react"
-import * as motion from "motion/react-client"
-import "keen-slider/keen-slider.min.css"
+import { useEffect } from "react";
+import * as motion from "motion/react-client";
+import "keen-slider/keen-slider.min.css";
 
 const images = [
   { src: "/images/house.jpg", alt: "Chapter House" },

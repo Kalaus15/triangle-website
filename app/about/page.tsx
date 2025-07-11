@@ -1,5 +1,5 @@
-"use client"
-import * as motion from "motion/react-client"
+"use client";
+import * as motion from "motion/react-client";
 
 const fadeInUp = {
   initial: { opacity: 0, y: 40 },

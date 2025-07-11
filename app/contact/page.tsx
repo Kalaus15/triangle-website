@@ -91,7 +91,7 @@ export default function ContactPage() {
         </button>
 
         {submitted && (
-          <p className="text-green-600 font-medium text-center">Thanks! We'll be in touch soon.</p>
+          <p className="text-green-600 font-medium text-center">Thanks! We&apos;ll be in touch soon.</p>
         )}
       </form>
 

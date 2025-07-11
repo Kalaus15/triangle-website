@@ -52,7 +52,7 @@ export default function AboutPage() {
             <p className="text-gray-700 text-xl mt-2">
               All Triangle brothers hold themselves to high moral standards and strive 
               to be the best men they can in order to build a better world for tomorrow. 
-              Triangle's Code of Ethics reflects our fraternities beliefs and values.
+              Triangle&apos;s Code of Ethics reflects our fraternities beliefs and values.
             </p>
             <p className="text-gray-700 text-xl mt-2">
               As a member of Triangle, I recognize my obligation to: <br />

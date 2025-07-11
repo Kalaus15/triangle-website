@@ -1,5 +1,4 @@
 "use client"
-import Image from "next/image"
 import Link from "next/link"
 import events from "@/data/events.json"
 import officers from "@/data/officers.json" assert { type: "json" };

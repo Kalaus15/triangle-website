@@ -11,7 +11,7 @@ const fadeInUp = {
 export default function AboutPage() {
   return (
     <>
-      {/* Full-width image */}
+      {/* Full-width image comment*/}
       <div className="w-full h-[400px] sm:h-[500px] md:h-[700px] overflow-hidden mt-5 relative left-1/2 -ml-[50vw] w-screen">
         <motion.img
           src="/images/members.jpg"

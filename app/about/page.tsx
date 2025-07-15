@@ -1,5 +1,5 @@
-"use client"
-import * as motion from "motion/react-client"
+"use client";
+import * as motion from "motion/react-client";
 
 const fadeInUp = {
   initial: { opacity: 0, y: 40 },
@@ -11,7 +11,7 @@ const fadeInUp = {
 export default function AboutPage() {
   return (
     <>
-      {/* Full-width image */}
+      {/* Full-width image comment*/}
       <div className="w-full h-[400px] sm:h-[500px] md:h-[700px] overflow-hidden mt-5 relative left-1/2 -ml-[50vw] w-screen">
         <motion.img
           src="/images/members.jpg"
@@ -52,7 +52,7 @@ export default function AboutPage() {
             <p className="text-gray-700 text-xl mt-2">
               All Triangle brothers hold themselves to high moral standards and strive 
               to be the best men they can in order to build a better world for tomorrow. 
-              Triangle's Code of Ethics reflects our fraternities beliefs and values.
+              Triangle&apos;s Code of Ethics reflects our fraternities beliefs and values.
             </p>
             <p className="text-gray-700 text-xl mt-2">
               As a member of Triangle, I recognize my obligation to: <br />

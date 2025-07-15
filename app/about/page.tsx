@@ -14,7 +14,7 @@ export default function AboutPage() {
       {/* Full-width image comment*/}
       <div className="w-full h-[400px] sm:h-[500px] md:h-[700px] overflow-hidden mt-5 relative left-1/2 -ml-[50vw] w-screen">
         <motion.img
-          src="/images/members.jpg"
+          src="../images/members.jpg"
           alt="Chapter Members"
           className="w-full h-full object-cover"
           initial={{ opacity: 0 }}
@@ -70,7 +70,7 @@ export default function AboutPage() {
           </div>
           <div className="flex-1">
             <img
-              src="/images/founders.jpg"
+              src="../images/founders.jpg"
               alt="Founders"
               className="w-full h-full object-cover rounded-lg shadow-md"
             />
@@ -91,7 +91,7 @@ export default function AboutPage() {
           </div>
           <div className="flex-1">
             <img
-              src="/images/social.jpg"
+              src="../images/social.jpg"
               alt="Social Event"
               className="w-full h-[300px] object-cover rounded-lg shadow-md"
             />

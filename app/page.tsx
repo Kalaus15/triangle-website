@@ -8,9 +8,9 @@ import * as motion from "motion/react-client";
 import "keen-slider/keen-slider.min.css";
 
 const images = [
-  { src: "images/house.jpg", alt: "Chapter House" },
-  { src: "images/social.jpg", alt: "Social Event" },
-  { src: "images/founders.jpg", alt: "Founders Picture" },
+  { src: "\/images/house.jpg", alt: "Chapter House" },
+  { src: "\/images/social.jpg", alt: "Social Event" },
+  { src: "\/images/founders.jpg", alt: "Founders Picture" },
 ]
 
 export default function HomePage() {

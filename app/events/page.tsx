@@ -51,7 +51,7 @@ const offerings = [
       `Triangle is serious about scholarship. Preparing yourself for your future 
       career and achieving academic success are your primary goals at the University of Wisconsin-Madison`,
     icon: "📚",
-    image: "images/professional.jpg",
+    image: "../images/professional.jpg",
   },
   {
     title: "Learn to Become a Leader",
@@ -59,7 +59,7 @@ const offerings = [
       `Triangle provides an environment that fosters personal growth and 
       professional success and provides the necessary skills to become an effictive leader.`,
     icon: "🔰",
-    image: "images/professional.jpg",
+    image: "../images/professional.jpg",
   },
   {
     title: "Utilize Local + National Job Connections",
@@ -69,7 +69,7 @@ const offerings = [
       alumni to share openings at their companies, in some cases before the job boards are made 
       known to the general public.`,
     icon: "💼",
-    image: "images/professional.jpg",
+    image: "../images/professional.jpg",
   },
   {
     title: "Socalize",
@@ -78,7 +78,7 @@ const offerings = [
       college curriculum. Triangle is invited and has access to many events, including Homecoming, 
       Greek Week/All Campus Party, formals, and more.`,
     icon: "🎉",
-    image: "images/pig.jpg",
+    image: "../images/pig.jpg",
   },
   {
     title: "Develop Life Long Friends",
@@ -86,7 +86,7 @@ const offerings = [
       `Some of your brothers will be your closest friends because you shared experiences, 
       worked together toward common goals and celebrated achievements during your time in school`,
     icon: "⭐",
-    image: "images/friends.jpg",
+    image: "../images/friends.jpg",
   },
 ];
 
@@ -101,7 +101,7 @@ export default function EventsPage() {
   };
   return (
     <main className="max-w-5xl mx-auto p-6">
-      <h1 className="text-4xl max-w-3xl mx-auto font-bold text-[#7f0000] pt-5">Upcoming Events</h1>
+      <h1 className="text-4xl max-w-3xl mx-auto font-bold text-[#7f0000] pt-10 sm:pt-4">Upcoming Events</h1>
       <p className="max-w-3xl mx-auto text-gray-700 mt-4">Check out our upcoming events!</p>
 
       <div className="max-w-3xl mx-auto mt-6 space-y-6">

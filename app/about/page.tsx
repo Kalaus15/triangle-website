@@ -91,7 +91,7 @@ export default function AboutPage() {
           </div>
           <div className="flex-1">
             <img
-              src="/images/social.jpg"
+              src="images/social.jpg"
               alt="Social Event"
               className="w-full h-[300px] object-cover rounded-lg shadow-md"
             />
